@@ -108,7 +108,7 @@
                                 <div class="hero__caption">
                                     <h1 data-animation="fadeInLeft" data-delay="0.2s">Sistem Laporan<br> Sarana Saintek</h1>
                                     <p data-animation="fadeInLeft" data-delay="0.4s">Ruang untuk mahasiswa Fakultas Sains dan Teknologi UIN Sunan Gunung Djati Bandung untuk berbagi keluhan, kritik dan saran terkait fasilitas yang ada di fakultas.</p>
-                                    <a href="elements.html" class="btn hero-btn" data-animation="fadeInLeft" data-delay="0.7s">Complaint</a>
+                                    <a href="#" class="btn hero-btn" data-toggle="modal" data-target="#komplain" data-animation="fadeInLeft" data-delay="0.7s">Complaint</a>
                                 </div>
                             </div>
                         </div>
@@ -401,6 +401,43 @@
         </section>
         <!-- About Area End -->
     </main>
+        <div class="modal fade mt-10" id="komplain" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="myModalLabel">Keluhan</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="#">
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap kamu">
+                  </div>
+                  <div class="form-group">
+                    <label for="nim">NIM</label>
+                    <input type="text" class="form-control" id="nim" placeholder="NIM Kamu">
+                  </div>
+                  <div class="form-group">
+                    <label for="keluhan">Keluhan</label>
+                    <textarea class="form-control" id="keluhan" rows="3"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="gambar">Gambar Bukti</label>
+                    <input type="file" class="form-control-file" id="gambar-bukti" accept="image/*">
+                    <img src="" class="img-thumbnail" id="preview-gambar" alt="Preview Gambar" style="max-height: 200px; max-width: 300px;">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
     <footer>
      <div class="footer-wrappper footer-bg">
         <!-- Footer Start-->
