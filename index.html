@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -94,6 +94,67 @@
             </div>
         </div>
         <!-- Header End -->
+<!--Form-->
+<div class="modal fade mt-10" id="komplain" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalLabel">Complaint Form</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <form action="#">
+            <div class="mt-10">
+                <input type="text" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required="" class="single-input">
+            </div>
+            <div class="mt-10">
+                <input type="text" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required="" class="single-input">
+            </div>
+            <div class="mt-10">
+                <input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required="" class="single-input">
+            </div>
+            <div class="input-group-icon mt-10">
+                <div class="icon"><i class="fa-solid fa-id-card-clip" aria-hidden="true"></i></div>
+                <div class="form-select" id="default-select" "="">
+                    <select style="display: none;">
+                        <option value="1">Agroteknologi</option>
+                        <option value="1">Biologi</option>
+                        <option value="1">Fisika</option>
+                        <option value="1">Kimia</option>
+                        <option value="1">Matematika</option>
+                        <option value="1">Teknik Elektro</option>
+                        <option value="1">Teknik Informatika</option>
+                    </select><div class="nice-select" tabindex="0"><span class="current">Jurusan</span><ul class="list"><li data-value="1" class="option">Agroteknologi</li><li data-value="1" class="option">Biologi</li><li data-value="1" class="option">Fisika</li><li data-value="1" class="option">Kimia</li><li data-value="1" class="option">Matematika</li><li data-value="1" class="option">Teknik Elektro</li><li data-value="1" class="option">Teknik Informatika</li></ul></div>
+        
+                </div>
+            </div>
+            <div class="mt-10">
+                <input type="complaint" name="complaint" placeholder="complaint" onfocus="this.placeholder = ''" onblur="this.placeholder = 'complaint'" required="" class="single-input">
+            </div>
+        <div class="proofpic">
+            <input type="file" id="file" accept="image/*" hidden>
+            <div class="img-area" data-img="">
+                <i class='bx bxs-cloud-upload icon'></i>
+                <h3>Upload Image</h3>
+                <p>Image size must be less than <span>2MB</span></p>
+            </div>
+            <button class="select-image">Select Image</button>
+        </div>
+        
+        <!-- Button -->
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <!--Form End-->
+    
     </header>
     <main>
         <!--? slider Area Start-->
@@ -401,43 +462,6 @@
         </section>
         <!-- About Area End -->
     </main>
-        <div class="modal fade mt-10" id="komplain" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="myModalLabel">Keluhan</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form action="#">
-                <div class="form-group">
-                    <label for="nama">Nama</label>
-                    <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap kamu">
-                  </div>
-                  <div class="form-group">
-                    <label for="nim">NIM</label>
-                    <input type="text" class="form-control" id="nim" placeholder="NIM Kamu">
-                  </div>
-                  <div class="form-group">
-                    <label for="keluhan">Keluhan</label>
-                    <textarea class="form-control" id="keluhan" rows="3"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <label for="gambar">Gambar Bukti</label>
-                    <input type="file" class="form-control-file" id="gambar-bukti" accept="image/*">
-                    <img src="" class="img-thumbnail" id="preview-gambar" alt="Preview Gambar" style="max-height: 200px; max-width: 300px;">
-                  </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-                    <button type="submit" class="btn btn-primary">Kirim</button>
-                </div>
-            </form>
-          </div>
-        </div>
-      </div>
     <footer>
      <div class="footer-wrappper footer-bg">
         <!-- Footer Start-->
@@ -576,3 +600,7 @@
 
 </body>
 </html>
+
+
+
+
