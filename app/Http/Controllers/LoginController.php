@@ -17,7 +17,6 @@ class LoginController extends Controller
         $credentials = $request->only('username', 'password');
         if (Auth::attempt($credentials)) { //melakukan autentifikasi 
             // Authentikasi berhasil dilakukan
-            $total_tiket = Auth::tiket()->
             $username = Auth::user()->username;
             $nama_lengkap = Auth::user()->nama_lengkap; //menambahkan variabel $nama_lengkap untuk session menu
             session(['id' => Auth::user()->username]); //buat session untuk menampilkan nama (uname) dimenu
