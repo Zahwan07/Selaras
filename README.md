@@ -1,64 +1,28 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h1>SELARAS: Website Pengaduan Fasilitas untuk Masyarakat Saintek</h1>
+<img src="https://github.com/Zahwan07/Selaras/assets/98698495/d611732c-1149-4076-ad7c-f1b23607c1e2" max-width="200px" height="175px">
+<p>SELARAS adalah sebuah website pengaduan fasilitas yang diperuntukkan bagi masyarakat saintek. Website ini memiliki fitur-fitur berikut:</p>
+<ol>
+    <li>Dua halaman berbeda: Halaman cpanel admin dan dashboard untuk user.</li>
+    <li>Fitur register dan login: Fitur ini memungkinkan admin untuk mendaftar dan login ke website.</li>
+    <li>CRUD di halaman admin: Fitur ini memungkinkan admin untuk membuat, membaca, memperbarui, dan menghapus tiket.</li>
+    <li>Tambahkan tiket disertai gambar: Fitur ini memungkinkan user untuk menambahkan tiket disertai gambar.</li>
+    <li>Fitur kompres gambar: Fitur ini akan mengompres gambar yang diunggah oleh user jika gambar melebihi kapasitas yang ditentukan.</li>
+    <li>Fitur pembacaan total tiket yang masuk: Fitur ini akan menampilkan total tiket yang masuk.</li>
+    <li>Fitur pembacaan total tiket yang masuk bulan ini saja: Fitur ini akan menampilkan total tiket yang masuk bulan ini saja.</li>
+    <li></li>
+</ol>
 
-## About Laravel
+Fitur-fitur tersebut membuat SELARAS menjadi website pengaduan fasilitas yang lengkap dan mudah digunakan. Dengan fitur-fitur tersebut, masyarakat saintek dapat dengan mudah menyampaikan keluhan atau saran terkait fasilitas yang mereka gunakan.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+SELARAS juga memiliki desain yang menarik dan responsif. Website ini dapat diakses dengan mudah melalui berbagai perangkat, baik komputer, laptop, tablet, maupun smartphone.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Jika Anda tertarik untuk menggunakan SELARAS, Anda dapat mengunjungi repositori GitHub kami di sini:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+[https://github.com/Zahwan07/Selaras]
 
-## Learning Laravel
+Kami juga menyediakan dokumentasi yang lengkap untuk membantu Anda menggunakan SELARAS. Dokumentasi tersebut dapat Anda temukan di sini:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+[https://drive.google.com/file/d/1vTm9NnZbjn__Y7Ilu5hwdO-GGDzNbLt_/view?usp=drive_link]
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Kami harap SELARAS dapat menjadi solusi bagi masyarakat saintek untuk menyampaikan keluhan atau saran terkait fasilitas yang mereka gunakan.
