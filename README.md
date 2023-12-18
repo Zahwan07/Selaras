@@ -1,6 +1,6 @@
 
 <h1>SELARAS: Website Pengaduan Fasilitas untuk Masyarakat Saintek</h1>
-<img src="https://github.com/Zahwan07/Selaras/assets/98698495/d611732c-1149-4076-ad7c-f1b23607c1e2" width="175px" height="175px">
+<img src="https://github.com/Zahwan07/Selaras/assets/98698495/d611732c-1149-4076-ad7c-f1b23607c1e2" max-width="200px" height="175px">
 <p>SELARAS adalah sebuah website pengaduan fasilitas yang diperuntukkan bagi masyarakat saintek. Website ini memiliki fitur-fitur berikut:</p>
 <ol>
     <li>Dua halaman berbeda: Halaman cpanel admin dan dashboard untuk user.</li>
